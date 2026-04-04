@@ -1,86 +1,64 @@
 <div align="center">
+  <img src="preview.png" alt="rblx-sniper preview" width="700"/>
+  <h1>rblx-sniper</h1>
+  <p>Fast Roblox 4 & 5 letter username checker — find available names before anyone else</p>
 
-<img src="preview.png" alt="preview" width="700"/>
+  [![Python](https://img.shields.io/badge/python-3.8+-blue?style=flat-square)](https://python.org)
+  [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Mac%20%7C%20Linux-lightgrey?style=flat-square)]()
+  [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)]()
 
-<br/>
-
-# rblx-sniper
-
-**Fast Roblox 4 & 5 letter username checker — find available names**
-
-[![Python](https://img.shields.io/badge/Python-3.7+-blue?style=flat-square&logo=python)](https://python.org)
-[![Version](https://img.shields.io/badge/Version-1.0-cyan?style=flat-square)](#)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](#)
-[![Discord](https://img.shields.io/badge/Discord-Join-7289da?style=flat-square&logo=discord)](https://discord.gg/c95uE5ejff)
-
-<br/>
-
-[**Download**](#installation) • [**Usage**](#usage) • [**Discord**](https://discord.gg/c95uE5ejff)
-
+  [Download](#installation) • [Usage](#usage) • [Discord](#discord)
 </div>
 
 ---
 
-## preview
+## Preview
 
 <div align="center">
-<img src="preview.png" alt="checker running" width="650"/>
+  <img src="preview.png" alt="checker running" width="650"/>
 </div>
 
 ---
 
-## video tutorial
+## Features
 
-<div align="center">
-
-[![Watch Tutorial](https://img.shields.io/badge/Watch%20Tutorial-YouTube-red?style=for-the-badge&logo=youtube)](YOUR_YOUTUBE_LINK)
-
-</div>
-
----
-
-## features
-
-- 4 and 5 letter Roblox username checking
-- multiple generation modes:
-  - pronounceable names (sounds like real words)
-  - exhaustive — every single combination (456,976 for 4-letter a-z)
-  - letters + numbers
-  - letters + underscore
-  - all combined
-  - load from custom `.txt` file
-- up to 100 threads for fast checking
-- uses official Roblox API — accurate results
-- live progress bar with ETA
-- saves results to `available_roblox.txt` automatically
-- run again option after finishing
-- works on Windows, Mac and Linux
+- Check 4 and 5 letter Roblox usernames for availability
+- Multiple generation modes:
+  - **Pronounceable** — names that sound like real words
+  - **Exhaustive** — every single combination (456,976 for 4-letter a–z)
+  - **Letters + numbers** — e.g. `kr4vo`, `z9xn`
+  - **Letters + underscore** — e.g. `kr_vo`, `z_xn`
+  - **All combined** — widest possible net
+  - **Custom file** — load your own `.txt` list
+- Optimised thread count — fast without triggering rate limits
+- Uses the official Roblox API for accurate results
+- Live progress bar with ETA
+- Hits print instantly and save to `available_roblox.txt`
+- Adaptive rate limit handling — backs off automatically on 429s
+- Works on Windows, Mac and Linux
 
 ---
 
-## installation
+## Installation
 
-### Windows
-
-```
+**Windows**
+```bash
 git clone https://github.com/40oo/rblx-sniper.git
 cd rblx-sniper
 pip install requests colorama
 python roblox_sniper.py
 ```
 
-### Linux
-
-```
+**Linux**
+```bash
 git clone https://github.com/40oo/rblx-sniper.git
 cd rblx-sniper
 pip3 install requests colorama --break-system-packages
 python3 roblox_sniper.py
 ```
 
-### macOS
-
-```
+**macOS**
+```bash
 git clone https://github.com/40oo/rblx-sniper.git
 cd rblx-sniper
 pip3 install requests colorama
@@ -89,58 +67,51 @@ python3 roblox_sniper.py
 
 ---
 
-## usage
+## Usage
 
-run the script and follow the menu:
+Run the script and follow the on-screen menu:
 
 ```
-[ Length ]     4 letters / 5 letters / both
-[ Charset ]    pronounceable / exhaustive / letters+numbers / underscore / all / custom file
-[ Speed ]      normal (25) / fast (50) / turbo (100 threads)
+[ Length ]    4 letters / 5 letters / both
+[ Charset ]   pronounceable / exhaustive / letters+numbers / underscore / all / custom file
 ```
 
-press `ENTER` to start — hits print live and save to `available_roblox.txt`.
-press `Ctrl+C` to stop at any time, results already found are kept.
+Press `ENTER` to start. Available names print live and are saved to `available_roblox.txt` as they're found. Press `Ctrl+C` at any time to stop — everything found so far is kept.
 
 ---
 
-## generation modes explained
+## Generation Modes
 
 | Mode | What it generates | Best for |
-|------|-------------------|----------|
-| Pronounceable | CV patterns + cool prefixes | clean sounding names |
-| Exhaustive | literally every combo | maximum coverage |
-| Letters + numbers | e.g. `kr4vo`, `z9xn` | more hits, less competition |
-| Letters + underscore | e.g. `kr_vo`, `z_xn` | unique looking names |
-| All | letters + numbers + underscore | widest net |
+|---|---|---|
+| Pronounceable | CV patterns + cool prefixes | Clean, natural sounding names |
+| Exhaustive | Every single combination | Maximum coverage on 4-letter |
+| Letters + numbers | e.g. `kr4vo`, `z9xn` | More hits, less competition |
+| Letters + underscore | e.g. `kr_vo`, `z_xn` | Unique looking names |
+| All | Letters + numbers + underscore | Widest net |
 
 ---
 
-## tips
+## Tips
 
-- use **exhaustive** mode for 4-letter to check every possible name
-- use **letters + numbers** for 5-letter — way more available than pure letters
-- if you get lots of `[ERR]` lower the thread count to 25
-- results are randomized every run so everyone checks different names
+- Use **exhaustive** mode for 4-letter to cover every possible name
+- Use **letters + numbers** for 5-letter — far more available than pure letters
+- Results are randomised every run so different people check different names
+- If you see lots of `[ERR]`, your connection may be unstable — try again later
 
 ---
 
-## discord
+## Discord
 
 <div align="center">
-
-[![Discord Server](https://img.shields.io/badge/Join%20the%20Discord-7289da?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/c95uE5ejff)
-
-join for help, updates and to share your finds
-
+  <a href="#">
+    <img src="https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+  </a>
+  <p>Join for help, updates and to share your finds</p>
 </div>
 
 ---
 
-## credits
-
 <div align="center">
-
-made by [40oo](https://github.com/40oo)
-
+  made by <strong>40oo</strong>
 </div>
