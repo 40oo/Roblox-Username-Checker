@@ -79,7 +79,7 @@ cd rblx-sniper
 
 pip3 install requests colorama --break-system-packages
 
-python3 roblox_sniper.py\
+python3 roblox_sniper.py
 ```
 
 ### macOS
