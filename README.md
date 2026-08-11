@@ -19,7 +19,7 @@
 ## preview
 
 <div align="center">
-<img src="preview.jpeg" alt="checker running" width="650"/>
+<img src="preview.jpeg" alt="checker running" width="350"/>
 </div>
 
 ---
@@ -41,7 +41,7 @@
   - letters
   - letters + numbers
   - letters + underscore
-- up to 100 threads for fast checking
+- up to 50 threads for fast checking
 - uses official Roblox API
 - live progress bar with ETA
 - saves results to `available_roblox.txt` automatically
@@ -94,7 +94,7 @@ run the script and follow the menu:
 ```
 [ Length ]     4 letters / 5 letters  
 [ Charset ]     letters+numbers / underscore / letters 
-[ Speed ]      up to 100 (not recommended because of Rate limited)
+[ Speed ]      up to 50 (not recommended because of Rate limited)
 ```
 
 press `ENTER` to start — hits print live and save to `available_roblox.txt`.
@@ -106,7 +106,7 @@ press `Ctrl+C` to stop at any time, results already found are kept.
 
 <div align="center">
 
-[![Discord Server](https://img.shields.io/badge/Join%20the%20Discord-7289da?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/c95uE5ejff)
+[![Discord Server](https://img.shields.io/badge/Join%20the%20Discord-7289da?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dPF7cUJ8mS)
 
 join for help, updates and to share your finds
 
