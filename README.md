@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="preview.png" alt="preview" width="700"/>
+<img src="sn1p4d.png" alt="preview" width="700"/>
 
 <br/>
 
