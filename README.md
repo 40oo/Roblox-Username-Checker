@@ -6,7 +6,7 @@
 
 # rblx-sniper
 
-**Fast Roblox 4 & 5 letter username checker — find available names**
+**Roblox 4 & 5 letter username checker**
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue?style=flat-square&logo=python)](https://python.org)
 [![Version](https://img.shields.io/badge/Version-1.0-cyan?style=flat-square)](#)
@@ -43,14 +43,11 @@
 
 - 4 and 5 letter Roblox username checking
 - multiple generation modes:
-  - pronounceable names (sounds like real words)
-  - exhaustive — every single combination (456,976 for 4-letter a-z)
+  - letters
   - letters + numbers
   - letters + underscore
-  - all combined
-  - load from custom `.txt` file
 - up to 100 threads for fast checking
-- uses official Roblox API — accurate results
+- uses official Roblox API
 - live progress bar with ETA
 - saves results to `available_roblox.txt` automatically
 - run again option after finishing
@@ -100,34 +97,13 @@ python3 roblox_sniper.py
 run the script and follow the menu:
 
 ```
-[ Length ]     4 letters / 5 letters / both
-[ Charset ]    pronounceable / exhaustive / letters+numbers / underscore / all / custom file
-[ Speed ]      normal (25) / fast (50) / turbo (100 threads)
+[ Length ]     4 letters / 5 letters  
+[ Charset ]     letters+numbers / underscore / letters 
+[ Speed ]      up to 100 (not recommended because of Rate limited)
 ```
 
 press `ENTER` to start — hits print live and save to `available_roblox.txt`.
 press `Ctrl+C` to stop at any time, results already found are kept.
-
----
-
-## generation modes explained
-
-| Mode | What it generates | Best for |
-|------|-------------------|----------|
-| Pronounceable | CV patterns + cool prefixes | clean sounding names |
-| Exhaustive | literally every combo | maximum coverage |
-| Letters + numbers | e.g. `kr4vo`, `z9xn` | more hits, less competition |
-| Letters + underscore | e.g. `kr_vo`, `z_xn` | unique looking names |
-| All | letters + numbers + underscore | widest net |
-
----
-
-## tips
-
-- use **exhaustive** mode for 4-letter to check every possible name
-- use **letters + numbers** for 5-letter — way more available than pure letters
-- if you get lots of `[ERR]` lower the thread count to 25
-- results are randomized every run so everyone checks different names
 
 ---
 
