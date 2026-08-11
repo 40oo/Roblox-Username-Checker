@@ -1,12 +1,7 @@
-<div align="center">
 
-<img src="sn1p4d.png" alt="preview" width="700"/>
+# Roblox-Username-Checker
 
-<br/>
-
-# rblx-sniper
-
-**Roblox 4 & 5 letter username checker**
+**Roblox 4 & 5 Character username checker**
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue?style=flat-square&logo=python)](https://python.org)
 [![Version](https://img.shields.io/badge/Version-1.0-cyan?style=flat-square)](#)
