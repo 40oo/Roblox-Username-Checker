@@ -4,9 +4,9 @@
 **Roblox 4 & 5 Character username checker**
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue?style=flat-square&logo=python)](https://python.org)
-[![Version](https://img.shields.io/badge/Version-1.0-cyan?style=flat-square)](#)
+[![Version](https://img.shields.io/badge/Version-1.2-cyan?style=flat-square)](#)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](#)
-[![Discord](https://img.shields.io/badge/Discord-Join-7289da?style=flat-square&logo=discord)](https://discord.gg/c95uE5ejff)
+[![Discord](https://img.shields.io/badge/Discord-Join-7289da?style=flat-square&logo=discord)](https://discord.gg/dPF7cUJ8mS)
 
 <br/>
 
@@ -19,7 +19,7 @@
 ## preview
 
 <div align="center">
-<img src="preview.png" alt="checker running" width="650"/>
+<img src="preview.jpeg" alt="checker running" width="650"/>
 </div>
 
 ---
